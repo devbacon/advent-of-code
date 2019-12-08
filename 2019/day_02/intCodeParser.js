@@ -1,6 +1,6 @@
 export const runCode = function(fs) {
   // Read file from local system
-  fs.readFile("2019/day_01/moduleMasses.txt", (error, data) => {
+  fs.readFile("2019/day_02/int_code.txt", (error, data) => {
     // If an error is detected, we throw an error and the process is stopped
     if (error) throw error;
 
@@ -10,6 +10,5 @@ export const runCode = function(fs) {
 
     // Now that we know we have the right data, we can start writing the main logic
     // TODO: Solve day one advent of code challenge(https://adventofcode.com/2019/day/1)
-
   });
 };

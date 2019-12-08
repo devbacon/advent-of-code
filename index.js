@@ -1,5 +1,9 @@
 // Import file system reading utility that is built into node
 const fs = require("fs");
-const moduleEquations = require("/2019/day_one/moduleEquations");
 
+// Import Javascript modules and run their solution code
+const moduleEquations = require("/2019/day_01/moduleEquations");
 moduleEquations.runCode(fs);
+
+const intCodeParser = require("/2019/day_02/intCodeParser");
+intCodeParser.runCode(fs);
