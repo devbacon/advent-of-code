@@ -16,10 +16,9 @@
       may need to run the way you want it to.
 */
 
-
 export const runCode = function(fs) {
   // Read file from local system
-  fs.readFile("2019/day_01/module_masses.txt", (error, data) => {
+  fs.readFile("/2019/day_01/module_masses.txt", (error, data) => {
     // If an error is detected, we throw an error and the process is stopped
     if (error) throw error;
 
@@ -33,6 +32,5 @@ export const runCode = function(fs) {
       TODO: Use the data to solve advent of code challenge
       (https://adventofcode.com/2019/day/1)
     */
-    
   });
 };
